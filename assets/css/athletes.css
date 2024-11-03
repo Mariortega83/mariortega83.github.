@@ -16,19 +16,18 @@ body {
 
 p {
     font-family: Montserrat, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.8rem;
     text-align: justify;
 }
 
-
-/*-----hero-----*/
+/*-----HERO-------*/
 
 .hero-container {
     width: 100%;
     height: 100vh;
 
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/athletesAlpinism.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -61,7 +60,7 @@ header {
     font-weight: 400;
 }
 
-/* Menu */
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -81,7 +80,7 @@ header {
 
 .menu a:hover {
     color: #f0a500;
-    /* Color de hover */
+
 }
 
 .x-extreme {
@@ -92,73 +91,26 @@ header {
     font-style: italic;
 }
 
-
-/*-----QUOTE 1------*/
-
-.quote1 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    aspect-ratio: 8/2;
-    ;
-
-    background-image: url(../img/quote1.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-
-    position: relative;
-}
-
-.quote1::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.quote1 p {
-    font-family: Playfar Display;
-    font-style: italic;
-    font-weight: 700;
-
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-size: 6rem;
-
-    z-index: 2;
-}
-
-
-/*------ABOUT 1------*/
-
-.about1 {
-    width: 100%;
-    height: auto;
-    padding: 0 5% 5% 5%;
-
-    margin-top: 4rem;
-
-}
-
-.about1-name h1 {
-
-    font-family: Montserrat;
-    text-align: left;
-    margin-left: 2rem;
-
+.mountaineering {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+
 }
 
-.about1 article {
+/*-----ATHLETE 1---------*/
+
+
+
+
+.atleta article {
+    margin: 4rem ;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -166,111 +118,124 @@ header {
 
 }
 
-.about1-pic {
+.pic1 {
 
     aspect-ratio: 4/3;
 
     flex: 1;
-    background-image: url(../img/about1.jpg);
+    background-image: url(../img/nicolas.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 
-.about1-text {
+
+
+.text {
     flex: 1;
     padding-left: 3rem;
 }
 
-/*-----QUOTE 2------------*/
-
-.quote2 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    aspect-ratio: 8/2;
-    ;
-
-    background-image: url(../img/quote2.jpg);
-    background-size: cover;
-    background-position: 80% 70%;
-    background-repeat: no-repeat;
-
-    position: relative;
-}
-
-.quote2::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.quote2 p {
-    font-family: Playfar Display;
+.name {
+    font-size: 1.5rem;
     font-style: italic;
-    font-weight: 700;
-
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-size: 6rem;
-
-    z-index: 2;
 }
 
-/*------ABOUT 2-------*/
+/*atleta2*/
 
-.about2 {
-    width: 100%;
-    height: auto;
-    padding: 0 5% 5% 5%;
-
-    margin-top: 4rem;
-
-}
-
-.about2-name h1 {
-
-    font-family: Montserrat;
-    text-align: right;
-    margin-right: 2rem;
-
-    font-size: 3rem;
-}
-
-.about2 article {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.about2-pic {
-
+.pic2 {
+   
     aspect-ratio: 4/3;
 
     flex: 1;
-    background-image: url(../img/about2.jpg);
+
+    background-image: url(../img/nirmal.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 
-.about2-text {
+.text {
     flex: 1;
+    padding-left: 3rem;
+}
+
+.text2 {
+    flex:1;
     padding-right: 3rem;
 }
+
+/*ski touring*/
+
+.ski-touring {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../img/ski.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ski-touring h1 {
+    font-family: Montserrat;
+    font-size: 10rem;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+    
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+
+    text-shadow:
+    3px 3px 0 #000;
+
+   
+}
+
+/*----Atleta 3------*/
+
+.pic3 {
+
+    aspect-ratio: 4/3;
+
+    flex: 1;
+    background-image: url(../img/paul.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+/*----Atleta 4------*/
+
+
+.pic4 {
+
+    aspect-ratio: 4/3;
+
+    flex: 1;
+    background-image: url(../img/andrzej.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 
 /*-----FOOTER-----*/
 
@@ -319,7 +284,7 @@ footer {
 
 .quick-nav li {
     margin: 0.5rem 0;
-    
+
 }
 
 .quick-nav a {
@@ -331,7 +296,7 @@ footer {
 
 .quick-nav a:hover {
     color: #f0a500;
-    
+
 }
 
 .socials {
@@ -366,6 +331,7 @@ footer {
     font-size: 0.8rem;
     color: white;
 }
+
 .icons {
     display: flex;
     flex-flow: row;
@@ -374,7 +340,7 @@ footer {
 
 .instagram {
     flex: 1;
-    width: 25px;
+    width: 25;
     height: 25px;
     background-image: url(../img/instagram.png);
     background-size: contain;
