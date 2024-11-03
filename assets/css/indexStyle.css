@@ -16,7 +16,7 @@ body {
 
 p {
     font-family: Montserrat, sans-serif;
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 0.97rem + 0.108vw, 1.1rem);
     line-height: 1.8rem;
     text-align: justify;
 }
@@ -56,7 +56,7 @@ header {
 }
 
 .logo h1 {
-    font-size: 2rem;
+    font-size: clamp(1rem, 0.703rem + 1.081vw, 2rem);
     margin: 0;
     font-weight: 400;
 }
@@ -86,7 +86,7 @@ header {
 
 .x-extreme {
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: clamp(1.2rem, 0.814rem + 1.405vw, 2.5rem);
 
     color: black;
     font-style: italic;
@@ -132,7 +132,7 @@ header {
     position: absolute;
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: clamp(3rem, 2.108rem + 3.243vw, 6rem);
 
     z-index: 2;
 }
@@ -155,7 +155,7 @@ header {
     text-align: left;
     margin-left: 2rem;
 
-    font-size: 3rem;
+    font-size: clamp(2rem, 1.703rem + 1.081vw, 3rem);
 }
 
 .about1 article {
@@ -222,7 +222,7 @@ header {
     position: absolute;
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: clamp(3rem, 2.108rem + 3.243vw, 6rem);
 
     z-index: 2;
 }
@@ -244,7 +244,7 @@ header {
     text-align: right;
     margin-right: 2rem;
 
-    font-size: 3rem;
+    font-size: clamp(2rem, 1.703rem + 1.081vw, 3rem);
 }
 
 .about2 article {
@@ -306,7 +306,7 @@ footer {
 
 .quick-nav h2 {
     font-family: Montserrat;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 0.851rem + 0.541vw, 1.5rem);
     color: white;
 }
 
@@ -347,7 +347,7 @@ footer {
 .title {
     flex: 1;
     font-family: Montserrat;
-    font-size: 2rem;
+    font-size: clamp(1rem, 0.703rem + 1.081vw, 2rem);
     color: white;
     font-style: italic;
     font-weight: 400;
@@ -356,7 +356,7 @@ footer {
 .explore-footer {
     font-weight: 700;
 
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 1.054rem + 1.622vw, 3rem);
 
 }
 
